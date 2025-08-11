@@ -14,14 +14,50 @@ body {
 }
 header{
     padding: 20px;
+    background-color: rgb(255, 255, 0);
 }
 
 h1,h2,p{
     margin-bottom: 15px;
-    text-align: justify;
+    text-align: justify;                                                                                                                                      
+}
+
+header >h1{
+text-align: center;
 }
 
 section.flex-c {
     padding: 20px;
     background-color: rgb(185, 162, 206);
+    display: flex;
+   flex-flow: column nowrap;
+}
+
+    
+
+
+
+.text-midia{
+    flex: 1 1 500px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.midia-text{
+    flex: 1 0 300px;
+    flex-flow: row wrap-reverse;
+    display: flex;
+}
+
+.normal {
+    
+    background-color: rgb(41, 0, 88);
+}
+
+.normal > h2 {
+ color: rgb(194, 148, 238);
+}
+
+.normal > p {
+    color: rgb(255, 255, 255);
 }
