@@ -7,7 +7,8 @@
 }
 
 body {
-  
+    height: 100vh;
+    width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     line-height: 1.5em;
@@ -33,9 +34,6 @@ section.flex-c {
    flex-flow: column nowrap;
 }
 
-    
-
-
 
 .text-midia{
     flex: 1 1 500px;
@@ -45,9 +43,11 @@ section.flex-c {
 
 .midia-text{
     flex: 1 0 300px;
-    flex-flow: row wrap-reverse;
+    flex-flow: row wrap;
     display: flex;
+    justify-content: center;
 }
+
 
 .normal {
     
@@ -60,4 +60,8 @@ section.flex-c {
 
 .normal > p {
     color: rgb(255, 255, 255);
+}
+
+#ivideo{
+    width: 80vw;
 }
